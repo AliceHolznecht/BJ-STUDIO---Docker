@@ -1,12 +1,9 @@
-# React + Vite
+#COPYRIGHT NOTICE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#©Brynner 2023. All rights reserved.
 
-Currently, two official plugins are available:
+#All visual designs, artwork, graphics, and creative content on this website are protected by U.S. copyright law. This includes but is not limited to: • Original artwork and illustrations • Website design elements • Graphics and visual compositions • Layout and design concepts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#Unauthorized use is prohibited. This includes copying, reproducing, distributing, displaying, or creating derivative works without written permission.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#Violations may result in: • Civil damages up to $150,000 per infringed work • Criminal prosecution and potential imprisonment • Legal fees and court costs
