@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  # The name of our service
+  react-app:
+    # Build the image from the Dockerfile in the current directory
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # A friendly name for the container
+    container_name: my-react-app-dev
+    # Port mapping: Expose port 5173 on our host machine and map it to port 5173 in the container
+    ports:
+      - "5173:5173"
+    # Volume mounting: This is the key to hot-reloading
+    volumes:
+      # Mount the current directory on the host to /app in the container
+      - .:/app
+      # Use a named volume for node_modules to prevent the host's node_modules (if it exists)
+      # from overwriting the one we installed in the Dockerfile. This is a crucial optimization.
+      - /app/node_modules
